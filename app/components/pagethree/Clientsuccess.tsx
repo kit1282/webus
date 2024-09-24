@@ -1,37 +1,25 @@
 // components/ClientSuccess.js
+import Image from "next/image";
+
 const ClientSuccess = () => {
-    return (
-      <section className="bg-white py-16 relative">
-        <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center px-6 lg:px-12">
-          {/* Left Content */}
-          <div className="relative z-10  ">
-          <div className=" bg-[url('/image/webusBG.png')]  bg-top[5px] bg-no-repeat bg-center h-screen bg-white absolute top-[20px] left-[-20px] text-[200px] ">
-          <h1 className="text-5xl font-normal leading-tight w-[591px] h-[128px]  top-[1px] left-[90px] gap-0 ">
-              UX Mastery in Action: <br /> Client Success
-            </h1>
-            
-            </div>
-           
-            <p className="text-lg text-gray-600 max-w-lg w-[456px] h-[100px] absolute top-[300px] left-[386px]">
-              Our case studies showcase how we've revolutionized user experiences across industries, turning complex challenges into intuitive, engaging digital solutions that drive measurable business growth.
-            </p>
-  
-            {/* Watermark Text */}
-            
-          </div>
-  
-          {/* Right Content (3D Object) */}
-          <div className="flex justify-center lg:justify-end">
-            <img
-              src="/image/5.png"
-              alt="3D Object"
-              className="w-80 h-80 object-contain"
-            />
-          </div>
-        </div>
-      </section>
-    );
-  };
-  
-  export default ClientSuccess;
-  
+  return (
+    <div>
+      <div className=" w-[690px] h-[220px] bg-[url('/image/webusBG.png 
+     ')] ">
+
+      </div>
+      <h1 className="sm:w-[590px] sm:h-[128px] sm:text-[64px] sm:leading-[64px] sm:font-light 
+      text-[38px] w-[313px] inset-y-[110px] inset-x-[35px] h-[108px] font-light leading-[56px]">
+        UX Mastery in Action: Client Success
+      </h1>
+      <p className=" sm:w-[455px] sm:h-[100px] sm:ext-[16px] sm:leading-[25px] sm:font-normal 
+      absolute inset-y-[320px] inset-x-[40px]
+       w-[270px] h-[125px]">
+        Our case studies showcase how we've revolutionized user experiences across industries, turning complex challenges into intuitive, engaging digital solutions that drive measurable business growth.
+      </p>
+      <Image src="/image/5.png" alt="as" width={181} height={202} className="sm:absolute sm:inset-y-[70px] sm:inset-x-[930px]  sm:w-[471px] sm:h-[530px]  left-[220px] " />
+    </div>
+  )
+};
+
+export default ClientSuccess;

@@ -1,12 +1,14 @@
 export default function DesignProcess(){
     return(
-        <div>
-            <h1 className="absolute inset-y-[2920px] inset-x-[33px] w-[285px] h-[72px] text-[36px] leading-[36px] font-light
-            sm:inset-y-[2860px] sm:inset-x-[84px] sm:w-[690px] sm:h-[64px] sm:text-[64px] sm:leading-[64px]">
+        <div className="flex flex-col mt-[100px] ml-[30px] sm:ml-[80px]">
+            <h1 className=" w-[285px] h-[72px] text-[36px] leading-[36px] font-light
+             sm:w-[690px] sm:h-[64px] sm:text-[64px] sm:leading-[64px]">
             Our UX Design Process 
             </h1>
-            <div className="absolute inset-y-[3040px] inset-x-[31px] w-[330px] min-h-[516px] flex flex-col gap-[30px]
-            m:inset-y-[3030px] sm:inset-x-[84px] sm:w-[360px] sm:h-[170px]">
+
+            <div className="flex flex-col sm:flex-row mt-[50px] sm:mt-[100px] gap-[30px] sm:gap-[90px]">
+            <div className=" w-[330px] min-h-[516px] flex flex-col gap-[30px]
+             sm:w-[360px] sm:h-[170px]">
                 <div className="h-[150px]">
                     
                     <div >
@@ -43,8 +45,8 @@ export default function DesignProcess(){
                 </div>
             </div>
 
-            <div className="absolute inset-y-[3580px] inset-x-[31px] w-[330px] min-h-[516px] flex flex-col gap-[30px]
-            sm:inset-y-[3040px] sm:inset-x-[530px] sm:w-[360px] sm:h-[170px]">
+            <div className="a w-[330px] min-h-[516px] flex flex-col gap-[30px]
+             sm:w-[360px] sm:h-[170px]">
                 <div className="h-[150px]">
                     <h1 className="min-h-[50px] border border-black rounded-[50px] pt-4 pb-4 pr-10 pl-[95px] text-[18px] leading-[18px] font-normal 
                     sm:min-h-[50px] sm:text-[25px] sm:leading-[25px] sm:pl-[80px]">
@@ -77,8 +79,8 @@ export default function DesignProcess(){
                 </div>
             </div>
 
-            <div className="absolute inset-y-[4150px] inset-x-[31px] w-[330px] min-h-[340px] flex flex-col gap-[30px]
-            sm:inset-y-[3040px] sm:inset-x-[970px] sm:w-[360px] sm:h-[170px]">
+            <div className=" w-[330px] min-h-[340px] flex flex-col gap-[30px]
+             sm:w-[360px] sm:h-[170px]">
                 <div className="h-[150px]">
                     <h1 className="min-h-[50px] border border-black rounded-[50px] pt-4 pb-4 pr-10 pl-[105px] text-[18px] leading-[18px] font-normal
                     sm:min-h-[50px] sm:text-[25px] sm:leading-[25px] sm:pl-[95px] ">
@@ -99,6 +101,7 @@ export default function DesignProcess(){
                     Measure the ripples of our design interventions, quantifying the transformative power of thoughtful UX.
                     </p>
                 </div>
+            </div>
             </div>
         </div>
     );

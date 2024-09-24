@@ -1,5 +1,5 @@
 import Clients from "./pageone/clients";
-import Navbar from "./Navbar";
+import Navbar from "./navbar";
 import Data from "./pagetwo/data";
 import DesignProcess from "./pagetwo/designProcess";
 import IntroTwo from "./pagetwo/introtwo";
@@ -9,10 +9,11 @@ import OurClients from "./pagetwo/ourclients";
 import OurPeople from "./pagetwo/ourpeople";
 import Quote from "./pagetwo/quote";
 import Service from "./pagetwo/service";
+import Footer from "./footer";
 
 export default function PageTwo(){
     return(
-        <>
+        <div className="overflow-x-hidden">
             <Navbar/>
             <IntroTwo/>
             <Quote/>
@@ -23,6 +24,7 @@ export default function PageTwo(){
             <OurPeople/>
             <OurClients/>
             <OfficeAddress/>
-        </>
+            <Footer/>
+        </div>
     );
 }

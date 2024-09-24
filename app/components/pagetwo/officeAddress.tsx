@@ -1,7 +1,7 @@
 export default function OfficeAddress(){
     return(
-        <div className="bg-black absolute inset-y-[5800px] w-[390px] h-[440px] flex flex-col
-        sm:inset-y-[6080px] sm:w-[1455px] sm:h-[270px] sm:flex-row ">
+        <div className="bg-black  w-[395px] h-[440px] flex flex-col
+        mt-[150px] sm:w-[1455px] sm:h-[270px] sm:flex-row ">
             <h1 className=" w-[96px] h-[36px] text-[36px] leading-[36px] font-light text-white ml-[31px] mt-[50px]
             sm:w-[170px] sm:h-[64px] sm:text-[64px] sm:leading-[64px] sm:ml-[86px] sm:mt-[110px]">
                 Office

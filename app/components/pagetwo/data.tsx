@@ -1,11 +1,11 @@
 export default function Data(){
     return (
-        <div className="hidden sm:block">
-            <h1 className="absolute inset-y-[3720px] inset-x-[86px] w-[690px] h-[64px] text-[64px] leading-[64px] font-light">
+        <div className="hidden sm:block mt-[100px] ml-[80px]">
+            <h1 className=" w-[690px] h-[64px] text-[64px] leading-[64px] font-light">
             Our Process in Numbers
             </h1>
-            <div>
-                <div className="absolute inset-y-[3830px] inset-x-[86px] w-[383px] h-[170px] border-t border-black ">
+            <div className="grid grid-cols-3 mt-[70px] gap-[80px]">
+                <div className=" w-[383px] h-[170px] border-t border-black ">
                     <h1 className="text-[40px] leading-[40px] font-light mt-2">
                     98%
                     </h1>
@@ -16,7 +16,7 @@ export default function Data(){
                     Comprehensive approach ensures no crucial design element is overlooked or undervalued.
                     </p>
                 </div>
-                <div className="absolute inset-y-[3830px] inset-x-[536px] w-[383px] h-[170px] border-t border-black">
+                <div className=" w-[383px] h-[170px] border-t border-black">
                     <h1 className="text-[40px] leading-[40px] font-light mt-2">
                     5x
                     </h1>
@@ -27,7 +27,7 @@ export default function Data(){
                     Our designs significantly boost efficiency, leading to happier, more productive users.
                     </p>
                 </div>
-                <div className="absolute inset-y-[3830px] inset-x-[990px] w-[383px] h-[170px] border-t border-black">
+                <div className=" w-[383px] h-[170px] border-t border-black">
                     <h1 className="text-[40px] leading-[40px] font-light mt-2">
                     40%
                     </h1>
@@ -38,7 +38,7 @@ export default function Data(){
                     Streamlined process cuts down on revisions, speeding up project completion times.
                     </p>
                 </div>
-                <div className="absolute inset-y-[4090px] inset-x-[86px] w-[383px] h-[170px] border-t border-black">
+                <div className=" w-[383px] h-[170px] border-t border-black">
                     <h1 className="text-[40px] leading-[40px] font-light mt-2">
                     250+
                     </h1>
@@ -49,7 +49,7 @@ export default function Data(){
                     Extensive real-world testing guarantees designs that truly resonate with users.
                     </p>
                 </div>
-                <div className="absolute inset-y-[4090px] inset-x-[536px] w-[383px] h-[170px] border-t border-black ">
+                <div className=" w-[383px] h-[170px] border-t border-black ">
                     <h1 className="text-[40px] leading-[40px] font-light mt-2">
                     92%
                     </h1>
@@ -60,7 +60,7 @@ export default function Data(){
                     Our challenge definition phase brings unparalleled clarity to product vision.
                     </p>
                 </div>
-                <div className="absolute inset-y-[4090px] inset-x-[990px] w-[383px] h-[170px] border-t border-black">
+                <div className=" w-[383px] h-[170px] border-t border-black">
                     <h1 className="text-[40px] leading-[40px] font-light mt-2">
                     3.2
                     </h1>
