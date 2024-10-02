@@ -1,5 +1,5 @@
 import React from "react";
-import Feature from "../Feature";
+import Feature from "./Feature";
 
 const RightCore = ({
   title1,
@@ -13,11 +13,8 @@ const RightCore = ({
 }: any) => {
   return (
     <div>
-      <h1 className="sm:w-[550px] sm:h-[65px] absolute sm:inset-y-[1214px] sm:inset-x-[90px] sm:text-6xl sm:leading-[64px] font-light 
-      w-[255px] h-[36px] inset-y-[1124px] inset-x-[31px] text-4xl leading-[36px]">
-        Core Expertise
-      </h1>
-        <div className="absolute sm:inset-y-[1350px] sm:inset-x-[475px] sm:w-[865px] sm:h-[530px] border-t border-r border-b border-black p-12 
+      
+        <div className=" sm:w-[865px] sm:h-[530px] border-t border-r border-b border-black p-12 
         w-[328px] h-[627px] ">
           {/* Heading Section */}
           <h2 className=" font-geomanist sm:text-[25px] font-bold sm:leading-[40px] text-left

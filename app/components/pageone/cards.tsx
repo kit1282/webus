@@ -3,12 +3,12 @@ import Image from "next/image";
 export default function Cards() {
   return (
     <>
-      <div className="sm:min-w-[1262px] sm:min-h-[226px] sm:gap-[22px] sm:flex ">
+      <div className="sm:min-w-[1262px] sm:min-h-[226px] sm:gap-[22px] sm:ml-[90px] sm:mt-[100px] sm:flex ">
         {/* <link href="#" > */}
         <a href="#">
           <div
-            className="bg-[#f9f9f9] sm:h-[226px] sm:min-w-[250px] cursor-pointer sm:ease-in-out absolute sm:inset-x-[90px] sm:inset-y-[900px] sm:hover:-translate-y-[5px] sm:hover:bg-black sm:hover:text-white sm:duration-300 sm:p-5 
-           inset-x-[31px] inset-y-[667px] w-[159px] h-[173px]  p-4"
+            className="bg-[#f9f9f9] sm:h-[226px] sm:min-w-[250px] cursor-pointer sm:ease-in-out  sm:hover:-translate-y-[5px] sm:hover:bg-black sm:hover:text-white sm:duration-300 sm:p-5 
+           w-[159px] h-[173px]  p-4"
           >
             <div
               className="sm:min-w-[208px] sm:min-h-[196px] p-[10px] gap-[60px] flex flex-col 
@@ -51,8 +51,8 @@ export default function Cards() {
 
         <a href="1">
           <div
-            className="bg-[#f9f9f9] sm:h-[226px] sm:min-w-[250px] sm:absolute sm:inset-x-[370px] sm:inset-y-[900px] cursor-pointer sm:ease-in-out sm:hover:-translate-y-[5px] sm:hover:bg-red-500 sm:hover:text-white sm:duration-300 sm:p-5  
-          absolute inset-x-[200px] inset-y-[667px] w-[159px] h-[173px]  p-4"
+            className="bg-[#f9f9f9] sm:h-[226px] sm:min-w-[250px] [370px]  cursor-pointer sm:ease-in-out sm:hover:-translate-y-[5px] sm:hover:bg-red-500 sm:hover:text-white sm:duration-300 sm:p-5  
+           w-[159px] h-[173px]  p-4"
           >
             <div
               className="sm:min-w-[208px] sm:min-h-[196px] p-[10px] sm:gap-[60px] flex flex-col
@@ -90,11 +90,11 @@ export default function Cards() {
         </a>
 
         <a href="2">
-        <div
-  className="sm:h-[226px] sm:w-[450px] sm:absolute sm:inset-x-[650px] sm:inset-y-[900px] sm:cursor-pointer sm:ease-in-out sm:hover:-translate-y-[5px] sm:duration-300 sm:p-5 bg-[url('/image/cardbg.png')] hover:bg-blend-luminosity sm:hover:bg-blend-normal 
-  absolute inset-x-[31px] inset-y-[860px] w-[159px] h-[173px] p-4 -z-10 
-  filter grayscale transition-all duration-300 hover:grayscale-0"
->
+          <div
+            className="sm:h-[226px] sm:w-[450px]  sm:cursor-pointer sm:ease-in-out sm:hover:-translate-y-[5px] sm:duration-300 sm:p-5 bg-[url('/image/cardbg.png')] hover:bg-blend-luminosity sm:hover:bg-blend-normal 
+            w-[159px] h-[173px] p-4 -z-10 
+            filter grayscale transition-all duration-300 hover:grayscale-0"
+          >
             <div
               className="sm:w-[441px] sm:min-h-[196px] p-[10px] gap-[30px] flex flex-col 
             w-[129px] h-[146px]"
@@ -135,8 +135,8 @@ export default function Cards() {
 
         <a href="4">
           <div
-            className="bg-[#f9f9f9] sm:h-[226px] sm:min-w-[250px] sm:absolute sm:inset-x-[1130px] sm:inset-y-[900px] sm:cursor-pointer sm:ease-in-out sm:hover:-translate-y-[5px] sm:hover:bg-black sm:hover:text-white sm:duration-300 sm:p-5  
-          absolute inset-x-[200px] inset-y-[860px] w-[159px] h-[173px]  p-4"
+            className="bg-[#f9f9f9] sm:h-[226px] sm:min-w-[250px] sm:cursor-pointer sm:ease-in-out sm:hover:-translate-y-[5px] sm:hover:bg-black sm:hover:text-white sm:duration-300 sm:p-5  
+           w-[159px] h-[173px]  p-4"
           >
             <div
               className="sm:min-w-[208px] sm:min-h-[196px] p-[10px] gap-[30px] flex flex-col

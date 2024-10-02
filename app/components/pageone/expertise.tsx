@@ -7,10 +7,6 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import Arrow from "../assets/ep_top-right.png";
 import RightCore from "./RightCore";
-import Sidebar from "./SideBar";
-import Intro from "./pageone/intro";
-import Cards from "./pageone/cards";
-import Feature from "../Feature";
 
 export default function Expertise() {
   const [number, setNumber] = useState(1);
@@ -21,99 +17,75 @@ export default function Expertise() {
   };
   return (
     <div className="">
-
-
-      {/* Left Sidebar */}
-      <div className="lg:w-[390px] h-[530px] absolute inset-x-[38px] inset-y-[1350px] flex flex-col justify-start border border-black lg:pr-12">
+      {/* heading */}
+      <h1
+        className="sm:w-[550px] sm:h-[65px] sm:ml-[90px] sm:mt-[100px] sm:text-6xl sm:leading-[64px] font-light 
+      w-[255px] h-[36px] text-4xl leading-[36px]"
+      >
+        Core Expertise
+      </h1>
+      <div className="flex sm:ml-[90px] sm:mt-[100px]">
+        {/* Left Sidebar */}
+      <div className="lg:w-[390px] h-[530px]   flex flex-col justify-start border border-black lg:pr-12">
         <div
           onClick={() => handleClick(1)}
-          className={` cursor-pointer font-geomanist lg:text-[40px] text-[30px] lg:w-[390px] h-[110px] font-light leading-[40px] text-center	lg:pl-6	py-8 border-b border-black ${active == 1
+          className={` cursor-pointer font-geomanist text-[40px] sm:text-[30px] lg:w-[390px] h-[110px] font-light leading-[40px] text-center pl-6	sm:py-8 border-b border-black ${
+            active == 1
               ? " 	 text-[#E53935] font-geomanist text-[40px] font-extrabold leading-[40px] text-left"
               : ""
-            }`}
+          }`}
         >
           Product Design
         </div>
-        <div className="h-[200px] flex relative border-b border-black pb-20">
-          {number === 1 && (
-            <div className="md:hidden">
-
-              <h1 className="">
-             Innovative Solutions, Exceptional Experiences
-
-              </h1>
-
-              <div>
-          {/* Heading Section */}
-          
-          <p className="">
-          We seamlessly blend creativity and technology to craft products that captivate users and stand out in the market. Our designs transform complex challenges into intuitive, engaging user experiences.    
-          </p>
-
-          {/* Feature Grid */}
-          <div className="">
-          title1="Advance UI Design" 
-          title2="Costumized Design Systems"
-          title3="Rapid Prototyping"
-          title4="Intutive User Flows"
-          title5="UX Design and Usability"
-          title6="Comprehensive User Testing"
-          </div>
-          <button className="border border-black sm:p-2 sm:w-28 sm:h-12 flex flex-row sm:justify-between sm:px-4 font-semibold sm:mt-[40px] sm:hover:bg-[#EE202E] sm:hover:text-white sm:hover:border-none sm:duration-300 sm:gap-0
-          w-[267px] h-[47px] pt-2.5 pb-2.5 pr-3 pl-[100px] gap-[15px] text-[16px] ">
-            <p>Explore</p>
-            <span className=" w-[12px] h-[14px] gap-0 border-t-2 border-transparent">
-              ↗️
-            </span>
-          </button>
-        </div>
-              
-              
-            </div>
-          )}
-        </div>
+        
         <div
           onClick={() => handleClick(2)}
-          className={` cursor-pointer  font-geomanist lg:text-[40px] text-[30px] lg:w-[390px] h-[110px] font-light leading-[40px] text-center	lg:pl-6	py-8 border-b border-black ${active == 2
+          className={` cursor-pointer  font-geomanist lg:text-[40px] text-[30px] lg:w-[390px] h-[110px] font-light leading-[40px] text-center	lg:pl-6	py-8 border-b border-black ${
+            active == 2
               ? ' 	 text-[#E53935] font-geomanist text-3xl font-extrabold leading-[40px] text-left"'
               : ""
-            }`}
+          }`}
         >
           Product Discovery
         </div>
+
         <div
           onClick={() => handleClick(3)}
-          className={` cursor-pointer font-geomanist lg:text-[40px] text-[30px] lg:w-[390px] h-[110px] font-light leading-[40px] text-center	lg:pl-6	py-8 border-b border-black ${active == 3
+          className={` cursor-pointer font-geomanist lg:text-[40px] text-[30px] lg:w-[390px] h-[110px] font-light leading-[40px] text-center	lg:pl-6	py-8 border-b border-black ${
+            active == 3
               ? ' text-[#E53935] font-geomanist text-2xl font-extrabold leading-[40px] text-left"'
               : ""
-            }`}
+          }`}
         >
           Web Design
         </div>
+
         <div
           onClick={() => handleClick(4)}
-          className={` cursor-pointer font-geomanist lg:text-[40px] text-[30px] lg:w-[390px] h-[110px] font-light leading-[40px] text-center	lg:pl-6	py-8 border-b border-black ${active == 4
+          className={` cursor-pointer font-geomanist lg:text-[40px] text-[30px] lg:w-[390px] h-[110px] font-light leading-[40px] text-center	lg:pl-6	py-8 border-b border-black ${
+            active == 4
               ? ' text-[#E53935] font-geomanist text-3xl font-extrabold leading-[40px] text-left"'
               : ""
-            }`}
+          }`}
         >
           Experience Design
         </div>
+
         <div
           onClick={() => handleClick(5)}
-          className={` cursor-pointer font-geomanist lg:text-[40px] text-[30px] lg:w-[390px] h-[110px] font-light leading-[40px] text-center	lg:pl-6	py-8 border-b border-black ${active == 5
+          className={` cursor-pointer font-geomanist lg:text-[40px] text-[30px] lg:w-[390px] h-[110px] font-light leading-[40px] text-center	lg:pl-6	py-8 border-b border-black ${
+            active == 5
               ? " text-[#E53935] font-geomanist text-3xl font-extrabold leading-[40px] text-left"
               : ""
-            }`}
+          }`}
         >
           Design Ops
         </div>
       </div>
 
-
-
       {/* Right Content Area */}
-      {number === 12 && (
+      <div>
+      {number === 1 && (
         <RightCore
           title1="Advance UI Design"
           title2="Costumized Design Systems"
@@ -173,7 +145,8 @@ export default function Expertise() {
           para="We optimize your design processes and empower your team to consistently deliver excellence. Our approach enhances collaboration, streamlines workflows, and scales your design capabilities for maximum impact."
         />
       )}
-
+      </div>
+      </div>
     </div>
   );
 }

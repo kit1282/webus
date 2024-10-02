@@ -18,11 +18,11 @@ export default function PageOne(){
             <Intro/>
               <Cards/> 
             <Expertise/>
-            {/* <ProjectIntro/> */}
-            {/* <CaseStudies/>
+            <ProjectIntro/>
+             <CaseStudies/>
             <Impact/>
             <Clients/>
-            <Footer/>  */}
+            <Footer/>  
         </div>
     );
 }
