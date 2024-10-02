@@ -16,13 +16,13 @@ export default function PageOne(){
         <div className=" relative "> 
             <Navbar/>
             <Intro/>
-            <Cards/>
+              <Cards/> 
             <Expertise/>
-            <ProjectIntro/>
-            <CaseStudies/>
+            {/* <ProjectIntro/> */}
+            {/* <CaseStudies/>
             <Impact/>
             <Clients/>
-            <Footer/>
+            <Footer/>  */}
         </div>
     );
 }

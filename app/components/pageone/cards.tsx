@@ -90,10 +90,11 @@ export default function Cards() {
         </a>
 
         <a href="2">
-          <div
-            className="sm:h-[226px] sm:w-[450px] sm:absolute sm:inset-x-[650px] sm:inset-y-[900px] sm:cursor-pointer sm:ease-in-out sm:hover:-translate-y-[5px] sm:duration-300 sm:p-5 bg-[url('/image/cardbg.png')] bg-blend-luminosity sm:hover:bg-blend-normal
-          absolute inset-x-[31px] inset-y-[860px] w-[159px] h-[173px]  p-4  -z-10"
-          >
+        <div
+  className="sm:h-[226px] sm:w-[450px] sm:absolute sm:inset-x-[650px] sm:inset-y-[900px] sm:cursor-pointer sm:ease-in-out sm:hover:-translate-y-[5px] sm:duration-300 sm:p-5 bg-[url('/image/cardbg.png')] hover:bg-blend-luminosity sm:hover:bg-blend-normal 
+  absolute inset-x-[31px] inset-y-[860px] w-[159px] h-[173px] p-4 -z-10 
+  filter grayscale transition-all duration-300 hover:grayscale-0"
+>
             <div
               className="sm:w-[441px] sm:min-h-[196px] p-[10px] gap-[30px] flex flex-col 
             w-[129px] h-[146px]"

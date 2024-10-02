@@ -11,7 +11,7 @@ export default function ProductDesign({
 }) {
     return (
         <div className="p-10 bg-white">
-            <div className="mx-auto flex flex-col gap-12">
+            <div className=" sm:mx-auto flex flex-col gap-12">
                 {/* Product Design Header Section */}
                 <h1 className="text-4xl sm:text-[64px] font-light sm:leading-[64px] text-[36px] leading-[36px] ">
                     {title}
@@ -21,27 +21,27 @@ export default function ProductDesign({
                 </p>
 
                 {/* Content Section */}
-                <div className="mt-10 flex gap-12 items-start">
+                <div className="sm:mt-10 flex flex-col-reverse sm:flex-row  gap-12 sm:items-start">
                     {/* Image on the Left */}
-                    <div>
+                    <div className='w-[750px]'>
                         <Image
                             src={imageSrc}
                             alt={imageAlt}
-                            width={600}
-                            height={500}
-                            className="rounded-lg shadow-lg w-[750px] h-[540px]"
+                            width={300}
+                            height={250}
+                            className="rounded-lg shadow-lg sm:w-[750px] sm:h-[540px]"
                         />
                     </div>
 
                     {/* Text Section on the Right */}
-                    <div className="w-[250px] ml-8 mt-[100px]">
-                        <h2 className="text-[64px] font-medium leading-[64px]">
+                    <div className="w-[250px] sm:ml-8 sm:mt-[100px]">
+                        <h2 className="sm:text-[64px] text-[36px] leading-9 font-medium sm:leading-[64px]">
                             {highlightText}
                         </h2>
-                        <p className="text-[64px] font-light mt-2 text-gray-400 leading-[64px]">
+                        <p className="sm:text-[64px] text-[36px] leading-9 font-light mt-2 text-gray-400 sm:leading-[64px]">
                             {secondaryText}
                         </p>
-                        <p className="text-[64px] font-light mt-2 text-gray-300 leading-[64px]">
+                        <p className="sm:text-[64px] text-[36px] leading-9 font-light mt-2 text-gray-300 sm:leading-[64px]">
                             {tertiaryText}
                         </p>
                     </div>

@@ -1,24 +1,23 @@
 "use client"
 
-import Footer from "./footer";
-import Navbar from "./Navbar";
-import Accord from "./Pagefive/Accord";
+import Footer from "../footer";
+import Navbar from "../Navbar";
+import Client from "../Pagefive/Client";
+import Hero from "../Pagefive/Hero";
+import ProjectInfo from "../Pagefive/ProjectInfo";
+import ProjectsSection from "../Pagefive/Projectsec";
 
-import Client from "./Pagefive/Client";
-import Hero from "./Pagefive/Hero";
-import ProjectInfo from "./Pagefive/ProjectInfo";
-import ProjectsSection from "./Pagefive/Projectsec";
 
-export default function Pagefive() {
+export default function Explore2() {
     const accordionItems = [
         {
-          title: "UI design",
+          title: "Interactive Discovery Workshops",
           featureData: {
-            description: "Creating visually appealing and intuitive interfaces for seamless interactions.",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
             sections: [
-              { title: "Visual Design", items: ["Create aesthetically pleasing layouts, color schemes, and typography that align with brand identity and enhance user engagement."] },
-              { title: "Interaction Design", items: ["Design intuitive user interactions and animations that guide users through the interface smoothly and enhance overall usability."] },
-              { title: "Responsive Design", items: ["Ensure seamless user experiences across various devices and screen sizes, from mobile to desktop."] },
+              { title: "Lorem Ipsum", items: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"] },
+              { title: "Lorem Ipsum", items: [" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"] },
+              { title: "Lorem Ipsum", items: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"] },
             ],
           },
           id: 1,
@@ -83,13 +82,13 @@ export default function Pagefive() {
         <>
             <Navbar />
             <Hero
-                title="Product Design"
-                description="At Webus, we transform complex challenges into intuitive, user-centric digital solutions. Our product design process blends creativity, strategy, and technology to craft experiences that captivate users and drive growth. Through research, prototyping, and refinement, we create products that exceed expectations. Whether you're a startup or established brand, our expert team brings your vision to life."
+                title="Product Discovery"
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"
                 imageSrc="/image/rectangle19.png"
                 imageAlt="Image Alt Text"
-                highlightText="Innovative designs,"
-                secondaryText="extraordinary,"
-                tertiaryText="results"
+                highlightText="Unlocking Your Product's,"
+                secondaryText="True,"
+                tertiaryText="Potential"
                 accordionItems={accordionItems}
             />
             <ProjectsSection />

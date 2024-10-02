@@ -1,5 +1,5 @@
 import React from 'react';
-import ProductDesign from './ProductDesign';
+import ProductDesign from './Productdesign';
 import Accord from './Accord';
 
 const Hero = ({ 
@@ -9,7 +9,8 @@ const Hero = ({
     imageAlt, 
     highlightText, 
     secondaryText, 
-    tertiaryText 
+    tertiaryText,
+    accordionItems 
 }) => {
     return (
         <div>
@@ -22,7 +23,7 @@ const Hero = ({
                 secondaryText={secondaryText}
                 tertiaryText={tertiaryText}
             />
-            <Accord />
+            <Accord accordionItems={accordionItems} />
         </div>
     );
 }
