@@ -1,17 +1,17 @@
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import ClientSuccess from "../components/pagethree/Clientsuccess";
 import Subpart from "../components/pagethree/Subpart";
 
-export default function PageTwo(){
-    return(
-        
+export default function PageTwo() {
+  return (
 
-      <div>
-        <Navbar />
+
+    <div>
+      <Navbar />
       <ClientSuccess />
-       <Subpart/>
-         <Footer/>
-            </div>
-    );
+      <Subpart />
+      <Footer />
+    </div>
+  );
 }

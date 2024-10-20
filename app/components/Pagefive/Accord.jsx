@@ -273,9 +273,9 @@ export default function Accord({accordionItems}) {
     <div className="sm:px-24 px-8 relative">
       {accordionItems.map(({ title, featureData, id }) => (
         <Accordion open={open === id} key={id}>
-          <AccordionHeader onClick={() => handleOpen(id)}>
-            {title}
-            <GoPlus className={`sm:ml-[1100px] ml-[190px] text-red-600 ${open === id ? "rotate-45" : "rotate-0"}`} />
+          <AccordionHeader onClick={() => handleOpen(id)} className="w-[330px] sm:w-[1270px] flex justify-between  ">
+            <div className="w-[270px] sm:w-[1200px] ">{title}</div>
+            <div><GoPlus className={`   text-red-600 ${open === id ? "rotate-45" : "rotate-0"}`} /></div>
           </AccordionHeader>
           <AccordionBody>
             <Features {...featureData} />
