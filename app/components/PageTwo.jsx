@@ -1,4 +1,3 @@
-import Clients from "./PageOne/Clients";
 import Navbar from "./Navbar";
 import Data from "./pagetwo/Data";
 import DesignProcess from "./pagetwo/DesignProcess";

@@ -1,7 +1,7 @@
 export default function IntroFour() {
   return (
     <div className="flex flex-col items-start sm:items-center px-4 h-[500px] sm:px-0 sm:h-[650px]">
-      <h2 className="w-[140px] h-[18px] text-[18px] leading-[18px] font-bold sm:w-[190px] sm:h-[25px] sm:text-[25px] sm:leading-[25px] mt-[100px] sm:mt-[200px]">
+      <h2 className="w-[140px] h-[18px] text-[18px] leading-[18px] font-bold sm:w-[200px] sm:h-[25px] sm:text-[25px] sm:leading-[25px] mt-[100px] sm:mt-[200px]">
         Our Capabilities
       </h2>
 

@@ -1,15 +1,12 @@
 import Footer from "./Footer";
-// import Impact from "./pageone/impact";
-
-// import Navbar from "./navbar";
-// import ProjectIntro from "./pageone/projectIntro";
-// import RightCoreMain from "./RightCoreMain";
-// import Home from "./subMain";
+import Navbar from "./Navbar";
 import ClientSuccess from "./pagethree/Clientsuccess";
 import Subpart from "./pagethree/Subpart";
-export default function PageTwo() {
+
+export default function PageThree() {
   return (
     <div>
+      <Navbar/>
       <ClientSuccess />
       <Subpart />
       <Footer />

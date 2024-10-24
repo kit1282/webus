@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Subpart() {
     return (
-        <div className="flex flex-col ml-[90px] gap-[100px]">
-            <div className="flex gap-[50px]">
+        <div className="flex flex-col sm:ml-[90px] ml-[30px] sm:gap-[100px] gap-[50px] ">
+            <div className="flex sm:flex-row  flex-col gap-[50px]">
                 <div className="flex flex-col gap-10">
                     <Image
                         src="/image/Rectangle 22-2.png"
@@ -12,7 +12,7 @@ export default function Subpart() {
                         height={630}
                         className=" w-[610px] h:[600px]"
                     />
-                    <div className="flex">
+                    <div className="flex sm:flex-row flex-col sm:gap-0  gap-6" >
                         <div className="flex flex-col gap-5">
                             <h2 className=" sm:w-[500px] sm:h-[25px]  sm:font-bold sm:text-[25px] sm:leading-[25px] 
                                           font-bold text-[18px] leading-[18px] w-[280px] h-[25px] ">
@@ -35,7 +35,7 @@ export default function Subpart() {
                     </div>
                 </div>
 
-                <div className="flex flex-col gap-5 items-end ">
+                <div className="flex flex-col gap-5 sm:items-end ">
                     <Image
                         src="/image/Rectangle 20-2.png"
                         alt="Lorem ipsum dolor sit amet"
@@ -54,9 +54,9 @@ export default function Subpart() {
                 text-[16px] leading-[25px] w-[312px] h-[50px]  ">
                         Designed the UI/UX for a fitness platform, focusing on personalized workouts, live sessions, and seamless user experience, boosting engagement.
                     </p>
-                    <a href="">
+                    <a href=" " >
                         <div className="sm:min-w-[103px] sm:min-h-[50px]  sm:p-[10px] 
-                    min-w-[103px] min-h-[50px] ] p-[15px] ">
+                    min-w-[103px] min-h-[50px] ] p-[15px] sm:mt-0 mt-6 ">
                             <p className="w-[83px] h-30px font-normal text-[14px] leading-[30px] text-red-600 
                         ">
                                 Know More
@@ -68,9 +68,9 @@ export default function Subpart() {
             </div>
 
 
-            <div className="flex items-end gap-[100px]">
+            <div className="flex sm:flex-row flex-col-reverse sm:items-end sm:gap-[100px] gap-6">
 
-                <div className="flex flex-col gap-5">
+                <div className="flex flex-col sm:gap-5 gap-2">
                     <h2 className="sm:w-[270px] sm:h-[25px] sm:font-bold sm:text-[25px] sm:leading-[25px] 
                  font-bold text-[18px] leading-[18px] w-[280px] h-[18px] ">
                         Coride
@@ -100,7 +100,7 @@ export default function Subpart() {
             </div>
 
 
-            <div className="flex gap-10">
+            <div className="flex sm:flex-row flex-col gap-10">
                 <div className="flex flex-col gap-5">
                     <Image
                         src="/image/laptop.png"
@@ -120,7 +120,7 @@ export default function Subpart() {
                     </p>
                     <a href="">
                         <div className="sm:min-w-[103px] sm:min-h-[50px] 
-                     min-w-[103px] min-h-[50px] p-5 ">
+                     min-w-[103px] min-h-[50px] p-5 sm:mt-0 mt-6 ">
                             <p className="w-[83px] h-30px font-normal sm:text-[14px] sm:leading-[30px] text-red-500 >
  ">
                                 Know More
@@ -140,7 +140,7 @@ export default function Subpart() {
                      w-[620px] h:[760px]"
                     />
 
-                    <div className="flex gap-10">
+                    <div className="flex sm:flex-row flex-col gap-10">
                         <div className="flex flex-col gap-5">
                             <h2 className="sm:w-[265px] sm:h-[25px]  sm:font-bold sm:text-[25px] sm:leading-[25px]
                                font-bold text-[25px] leading-[18px] w-[280px] h-[18px]">
@@ -164,7 +164,7 @@ export default function Subpart() {
                 </div>
             </div>
 
-            <div className="flex gap-10">
+            <div className="flex sm:flex-row flex-col gap-10">
                 <Image
                     src="/image/Group 632635.png"
                     alt="Dragatron"

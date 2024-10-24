@@ -14,14 +14,14 @@ export default function Home() {
   return (
     <>
       <PageOne />
-      <PageTwo />
-      <PageThree /> 
+      {/* <PageTwo /> */}
+      {/* <PageThree /> 
       <PageFour />
       <Pagefive />
       <Explore2 />
-      <Explore3 />
-      <Explore4 />
-      <Explore5 />
+      <Explore3 /> */}
+      {/* <Explore4 />
+      <Explore5 /> */}
     </>
   );
 }

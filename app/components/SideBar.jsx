@@ -33,6 +33,7 @@ export default function Sidebar({ isOpen, setIsOpen }) {
 
       {/* Menu */}
       <nav className="flex flex-col space-y-4 pl-6 mt-10">
+
         <Link
           className=" text-black hover:red-500 transition-colors cursor-pointer"
           href="/"
@@ -42,29 +43,37 @@ export default function Sidebar({ isOpen, setIsOpen }) {
           className=" text-black hover:text-red-500 transition-colors cursor-pointer"
           href="/"
         >
-          home
+          Home
         </Link>
+
         {/* <a href="#" className="text-black hover:text-red-500 transition-colors">about</a> */}
         <Link
-          className=" text-black hover:text-red-500 transition-colors"
+          className=" text-black hover:text-red-500 transition-colors cursor-pointer"
           href="/about"
         >
           {" "}
-          about
+          About
         </Link>
-        <a href="#" className="text-black hover:text-red-500 transition-colors">
-          services
-        </a>
+
         <Link
-          className=" text-black hover:text-red-500 transition-colors"
+          className=" text-black hover:text-red-500 transition-colors cursor-pointer"
+          href="/service"
+        >
+          {" "}
+          Servies
+        </Link>
+
+        <Link
+          className=" text-black hover:text-red-500 transition-colors cursor-pointer"
           href="/case"
         >
           {" "}
-          case studies
+          Case Studies
         </Link>
-        <a href="#" className="text-black hover:text-red-500 transition-colors">
-          contact us
-        </a>
+
+        <Link href="/contact" className="text-black hover:text-red-500 transition-colors">
+          Contact us
+        </Link>
       </nav>
     </div>
   );
